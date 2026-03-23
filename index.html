@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>javascript 101</h1>
+
+    <div class="card">
+      <h2>stimplaðu inn nafnið þitt:</h2>
+      <input id="nameInput" type="text" placeholder="nafnið þitt hér...." />
+      <button onclick="sayHallo()">Birta halló + Nafn!</button>
+      <div class="output" id="nameOutput">Niðurstaða byrtist hér....</div>
+    </div>
+    <div class="card">
+      <h2>Stimplaðu in aldurinn þinn</h2>
+      <input id="ageInput" type="text" placeholder="aldurinn þinn hér" />
+      <button onclick="chackAge()">Birta ef þú ert fullorðin eða barn</button>
+      <div class="output" id="ageOutput">Niðurstaða byrtist hér....</div>
+    </div>
+    <div class="card">
+      <h2>Reinknivél</h2>
+      <input id="num1" type="number" placeholder="Tala1...." />
+      <select id="opurator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+      </select>
+      <input id="num1" type="number" placeholder="tala2...." />
+      <button onclick="calculator()">Reiknníngur</button>
+      <div class="output" id="cardOutput">Niðurstaða byrtist hér....</div>
+    </div>
+  </body>
+</html>
